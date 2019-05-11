@@ -1,0 +1,11 @@
+# First in first out - using collections.deque
+from collections import deque
+
+queue = deque(["Eric", "John", "Michael"])
+queue.append("Terry")
+print(queue)                # ["Eric", "John", "Michael", "Terry"]
+queue.append("Graham")
+print(queue)                # ["Eric", "John", "Michael", "Terry", "Graham"]
+queue.popleft()             # 'Eric'
+queue.popleft()             # 'John'
+queue                       # deque(['Michael', 'Terry', 'Graham'])
