@@ -1,5 +1,7 @@
 # python-data-structures
 
+Basics of python data structures of teaching purpose in bootcamp
+
 Python has four basic inbuilt data structures namely Lists, Dictionary, Tuple and Set. Other data structures can be implemented using these inbuilt strucutres such as stack, queue etc.
 
 __Lists__
